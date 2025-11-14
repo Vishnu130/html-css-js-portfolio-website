@@ -638,3 +638,28 @@ i, .experience-sub-title-project-title{
     text-align: left;
 }
 
+/* FORCE PROFILE LAYOUT FIX*/
+#profile {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100%;
+    gap: 3rem;
+}
+
+#profile .section__pic-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    flex: 0 0 auto !important;
+}
+
+#profile img {
+    display: block !important;
+    margin: 0 auto !important;
+}
