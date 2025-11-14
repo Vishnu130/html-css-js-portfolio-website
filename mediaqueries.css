@@ -132,10 +132,21 @@
 }
 
 /* Fix image centering on iPhone */
-.about-pic {
-    margin: 0 auto !important;
-    display: block;
-}
+
+
+ #about .section__pic-container {
+        display: block !important;
+        margin: 0 auto !important;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    #about .about-pic {
+        display: block;
+        margin: 0 auto !important;
+        width: 70%;
+        height: auto;
+    }
 
 
 }
