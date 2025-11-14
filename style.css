@@ -621,5 +621,20 @@ i, .experience-sub-title-project-title{
     box-shadow: 0 0 12px rgba(255, 122, 0, 0.35); 
 }
 
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 3rem;
+}
 
+
+#profile .section__pic-container {
+    flex: 0 0 auto;
+}
+
+
+#profile .section__text {
+    text-align: left;
+}
 
