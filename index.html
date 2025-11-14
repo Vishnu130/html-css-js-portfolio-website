@@ -14,6 +14,8 @@
             <ul class ="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,11 +29,13 @@
             <span></span>
             <span></span>
         </div>
-        <div class=" menu-links">
-            <li><a href="#about"onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience"onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#leadership" onclick="toggleMenu()">Leadership</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
         </div>
     </nav>
@@ -47,7 +51,7 @@
                 <button class="btn btn-color-2" onclick="window.open('./assets/Vishnu-Resume.pdf')">
                     Download CV
                 </button>
-                <button class="btn btn-color-1" onclick="location.href('./#contact')">
+                <button class="btn btn-color-1" onclick="location.href = './#contact'">
                     Contact Info
                 </button>
             </div>
@@ -62,7 +66,7 @@
   <h1 class="title">About Me</h1>
   <div class="section-container">
     <div class="section__pic-container">
-      <img src="assets/about-pic.png" alt="Profile picture" class="about-pic">
+      <img src="assets/JurPKVish.jpg" alt="Profile picture" class="about-pic">
     </div>
 
     <div class="about-details-container">
@@ -76,57 +80,357 @@
         <div class="details-container">
           <img src="assets/education.png" alt="education icon" class="icon">
           <h3>Education</h3>
-          <p>B.Sc. Bachelors Degree <!--<br>M.SC. Masters Here  --></p>
+          <p>B.Sc. Computer Engineering + Minor in Hoeft Technology & Management<br><br>University of Illinois at Urbana Champaign</p>
         </div>
       </div>
 
       <div class="text-container">
         <p>
-          Once I was 7 years old lorem ipsum dolor and cheese
+           I'm a Computer Engineering student at the University of Illinois Urbana-Champaign with a passion for software and hardware engineering. I have a wide range of interests in topics like: VLSI Design, Management, Digital Logic Circuits, Computer Architecture,  Cloud Computing, UI/UX Design, AI/ML, and Digital Signal Processing. As of now I particularly enjoy working on projects that teach me how things work at a low level while connecting that knowledge to practical applications. Outside of coursework I am into Powerlifting (I'm in the 1000lb club!!), traveling, and learning about new tech and computer concepts.
         </p>
       </div>
     </div>
   </div>
   <img src="assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href = './#experience'">
 </section>
-<section id ="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
+
+<section id="experience">
+    <p class="section__text__p1">Dive Into My</p>
+    <h1 class="title">Work Experience</h1>
     <div class="experience-details-container">
         <div class="about-containers">
             <div class="details-container">
-                <h2 class = "experience-sub-title">Software Engineering</h2>
+                <h2 class="experience-sub-title">Thomson Reuters</h2>
+                <div class="text-container">
+                    <h3>Software Developer</h3>
+                    <i class="experience-date">January 2025 - March 2025 | Dallas, Texas</i>
+                    <ul class="experience-list">
+                        <li>Expanded and productionized a cloud-based user management pipeline using AWS and .NET, enabling secure CRUD operations across Oracle, PostgreSQL, and instance-specific schemas while scaling to 2,900+ enterprise clients</li>
+                        <li>Engineered synchronization and schema update processes, developing Oracle stored procedures and integrating APIs to automate user provisioning across tax-related databases</li>
+                        <li>Led technical onboarding and mentorship for interns/new hires, collaborating cross-functionally with infrastructure and product teams</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Thomson Reuters</h2>
+                <div class="text-container">
+                    <h3>Software Engineering Intern</h3>
+                    <i class="experience-date">May 2024 - August 2024 | Dallas, Texas</i>
+                    <ul class="experience-list">
+                        <li>Engineered a robust synchronization process integrating OTP products user account creations and updates from OneSource to Oracle and PostgreSQL databases using AWS services and .NET worker service</li>
+                        <li>Developed a computer architecture system currently used by around 2,900 clients with user counts ranging from 1-500, serving as a blueprint across Thomson Reuters products</li>
+                        <li>Designed and implemented a streamlined onboarding process for TR OTP employees while training and onboarding interns and new hires</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Handshake AI</h2>
+                <div class="text-container">
+                    <h3>Artificial Intelligence Fellowship</h3>
+                    <i class="experience-date">November 2025 - Ongoing | Remote</i>
+                    <ul class="experience-list">
+                        <li>NDA - Working on cutting-edge AI projects and research</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">HACK-CMP</h2>
+                <div class="text-container">
+                    <h3>Software, UI/UX & Consulting Intern</h3>
+                    <i class="experience-date">January 2023 - April 2024 | Hesse, Germany</i>
+                    <ul class="experience-list">
+                        <li>Designed and developed a responsive web application using React.js and Adobe XD for a VR/AR simulator startup focused on natural and financial crises</li>
+                        <li>Provided strategic consulting on VR/AR product development, marketing initiatives, and transitioning to open-source software to improve product efficiency</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href = './#leadership'">
+</section>
+
+<section id="leadership">
+    <p class="section__text__p1">Making an Impact</p>
+    <h1 class="title">Leadership Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Hoeft Technology and Management</h2>
+                <div class="text-container">
+                    <h3>Student Board Member</h3>
+                    <i class="experience-date">June 2025 - Current | Champaign, Illinois</i>
+                    <ul class="experience-list">
+                        <li>Directed semester-wide programming including retreats, general meetings, and alumni/company networking events by managing timelines and coordinating cross-functional teams</li>
+                        <li>Built partnerships with corporate representatives and alumni to host recruiting and professional development events</li>
+                        <li>Leveraged member feedback and budget reviews to design scalable, data-driven initiatives aligned with student needs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Engineering Council</h2>
+                <div class="text-container">
+                    <h3>Vice President - Professional Development</h3>
+                    <i class="experience-date">June 2025 - Current | Champaign, Illinois</i>
+                    <ul class="experience-list">
+                        <li>Managed finances and directed professional development initiatives for the entire College of Engineering</li>
+                        <li>Oversaw the mock career fair, mentorship program, and alumni/industry talks to enhance career readiness</li>
+                        <li>Showcased diverse engineering pathways and connected students with industry professionals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Dallas Fort Worth International Airport</h2>
+                <div class="text-container">
+                    <h3>Airport Ambassador</h3>
+                    <i class="experience-date">January 2021 - May 2023 | Dallas, Texas</i>
+                    <ul class="experience-list">
+                        <li>Translated Spanish and French for foreign customers and transported veterans to the airport's USO</li>
+                        <li>Offered friendly, accurate, and timely assistance by answering questions regarding airport and airline services</li>
+                        <li>Provided exceptional customer service to diverse international travelers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Ascend UIUC Chapter</h2>
+                <div class="text-container">
+                    <h3>Membership Committee</h3>
+                    <i class="experience-date">February 2023 - May 2024 | Champaign, Illinois</i>
+                    <ul class="experience-list">
+                        <li>Planned and executed multiple social events and competitions, ensuring smooth coordination through completion</li>
+                        <li>Adapted quickly to changing circumstances and demonstrated strong problem-solving skills during events</li>
+                        <li>Provided mentorship to members on jobs, startups, classes, study abroad, and resume/interview preparation in business and computer engineering</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href = './#skills'">
+</section>
+
+<section id ="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class = "skills-sub-title">Software Engineering</h2>
                 <div class="article-container">
-                     <article> <!--COPY PASTE ARICLE FOR NEW SKILLS FROM HERE -->
-                        <img src="assets/checkmark.png" alt="Experience icon" class = "icon">
+                     <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
                         <div>
-                            <h3>HTML</h3>
+                            <h3>Python</h3>
                             <p>Experienced</p>
                         </div>
-                    </article> <!--COPY PASTE ARICLE FOR NEW SKILLS TO HERE -->
+                    </article>
                     <article>
-                        <img src="assets/checkmark.png" alt="Experience icon" class = "icon">
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
                         <div>
-                            <h3>CSS</h3>
+                            <h3>C/C++/C#</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>React.js</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Node.js</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>.NET</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Amazon Web Services</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Azure</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Oracle</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>PostgreSQL</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Linux</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Machine Learning</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Artificial Intelligence</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Data Mining</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Advanced Numerical Analysis</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Parallel Programming</h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                 </div>
             </div>
             <div class="details-container">
-                <h2 class = "experience-sub-title">Hardware Engineering</h2>
+                <h2 class = "skills-sub-title">Hardware Engineering</h2>
                 <div class="article-container">
-                     <article> <!--COPY PASTE ARICLE FOR NEW SKILLS FROM HERE -->
-                        <img src="assets/checkmark.png" alt="Experience icon" class = "icon">
+                     <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
                         <div>
                             <h3>SystemVerilog</h3>
                             <p>Experienced</p>
                         </div>
-                    </article> <!--COPY PASTE ARICLE FOR NEW SKILLS TO HERE -->
+                    </article>
                     <article>
-                        <img src="assets/checkmark.png" alt="Experience icon" class = "icon">
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
                         <div>
-                            <h3>VDHL</h3>
+                            <h3>VLSI Design</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Verilog</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Electronic Circuits</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Analog Signal Processing</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Logic Synthesis</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Computer Architecture</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Condensed Matter Physics</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Digital Signal Processing</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Embedded Systems</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>FPGAs</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.png" alt="skills icon" class = "icon">
+                        <div>
+                            <h3>Quantum Mechanics</h3>
                             <p>Experienced</p>
                         </div>
                     </article>
@@ -139,9 +443,68 @@
 <section id = "projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title" >Projects</h1>
-    
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container"> <!-- clone this for more projects -->
+            <div class = "article-container">
+                <img src="assets/tube_radio_radio_retro.jpg" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title-project-title">AM Radio Receiver</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/document/d/13_-wWmc8manQbipsO0xZ0F_1ngSfpB5LBQKB6YSYdfQ/edit?usp=sharing'">
+                    See More Here!
+                </button>
+                <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vishnu130'">
+                    Live Demo
+                </button> -->
+            </div>
+        </div> <!-- to add another project clone details-container color-container -->
+        <div class="details-container color-container"> <!-- clone this for more projects -->
+            <div class ="article-container">
+                <img src="assets/code_html_digital_coding(2).jpg" alt="Project 2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title-project-title">This Website!</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vishnu130/html-css-js-portfolio-website'">
+                    See More Here!
+                </button>
+                <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vishnu130'">
+                    Live Demo
+                </button> -->
+            </div>
+        </div> 
+    </div><!-- to add another project clone details-container color-container -->
+    </div>
 </section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:vishnusriram413@outlook.com">vishnusriram413@outlook.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/vishnusriram130/">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class ="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2025 Vishnu Sriram. All Rights Reserved.</p>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
-
